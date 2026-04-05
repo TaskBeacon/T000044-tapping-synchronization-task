@@ -1,0 +1,22 @@
+id: T000044
+slug: tapping-synchronization-task
+title: Tapping Synchronization Task
+acquisition: behavior
+variant: baseline
+cognitive_domain:
+  - sensorimotor-synchronization
+  - beat-production
+  - auditory-motor-timing
+  - rhythm-perception
+maturity: draft
+version:
+  release_tag: v0.1.0-dev
+contracts:
+  psyflow_taps: v0.1.0
+evidence:
+  - references/references.yaml
+  - references/references.md
+  - references/parameter_mapping.md
+  - references/stimulus_mapping.md
+  - references/task_logic_audit.md
+maintainer: []

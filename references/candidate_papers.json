@@ -1,0 +1,558 @@
+[
+  {
+    "id": "W2147682570",
+    "title": "Listening to Musical Rhythms Recruits Motor Regions of the Brain",
+    "authors": [
+      "Jerry L. Chen",
+      "Virginia B. Penhune",
+      "Robert J. Zatorre"
+    ],
+    "year": 2008,
+    "journal": "Cerebral Cortex",
+    "doi_or_url": "https://doi.org/10.1093/cercor/bhn042",
+    "citation_count": 775,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1918961233",
+    "title": "Distributed Neural Systems Underlying the Timing of Movements",
+    "authors": [
+      "Stephen M. Rao",
+      "Deborah L. Harrington",
+      "Kathleen Y. Haaland",
+      "Julie A. Bobholz",
+      "Robert W. Cox",
+      "Jeffrey R. Binder"
+    ],
+    "year": 1997,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.17-14-05528.1997",
+    "citation_count": 665,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2059976173",
+    "title": "Systems Neuroplasticity in the Aging Brain: Recruiting Additional Neural Resources for Successful Motor Performance in Elderly Persons",
+    "authors": [
+      "Sofie Heuninckx",
+      "Nicole Wenderoth",
+      "Stephan P. Swinnen"
+    ],
+    "year": 2008,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3300-07.2008",
+    "citation_count": 528,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2068910989",
+    "title": "The evolutionary neuroscience of musical beat perception: the Action Simulation for Auditory Prediction (ASAP) hypothesis",
+    "authors": [
+      "Aniruddh D. Patel",
+      "John R. Iversen"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Systems Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnsys.2014.00057",
+    "citation_count": 523,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2772691327",
+    "title": "Flexible timing by temporal scaling of cortical responses",
+    "authors": [
+      "Jing Wang",
+      "Devika Narain",
+      "Eghbal A. Hosseini",
+      "Mehrdad Jazayeri"
+    ],
+    "year": 2017,
+    "journal": "Nature Neuroscience",
+    "doi_or_url": "https://doi.org/10.1038/s41593-017-0028-6",
+    "citation_count": 513,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2017558624",
+    "title": "Neural Basis of Aging: The Penetration of Cognition into Action Control",
+    "authors": [
+      "Sofie Heuninckx",
+      "Nicole Wenderoth",
+      "Filiep Debaere",
+      "Ronald Peeters",
+      "Stephan P. Swinnen"
+    ],
+    "year": 2005,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.1263-05.2005",
+    "citation_count": 452,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2062444032",
+    "title": "Embodiment and sense-making in autism",
+    "authors": [
+      "Hanne De Jaegher"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Integrative Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnint.2013.00015",
+    "citation_count": 368,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1974407924",
+    "title": "Synchronizing actions with events: The role of sensory information",
+    "authors": [
+      "Gisa Aschersleben",
+      "Wolfgang Prinz"
+    ],
+    "year": 1995,
+    "journal": "Perception & Psychophysics",
+    "doi_or_url": "https://doi.org/10.3758/bf03213056",
+    "citation_count": 295,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2032467910",
+    "title": "Neural synchrony within the motor system: what have we learned so far?",
+    "authors": [
+      "Bernadette C.M. van Wijk",
+      "Peter J. Beek",
+      "Andreas Daffertshofer"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2012.00252",
+    "citation_count": 254,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2099732627",
+    "title": "Synchronized Drumming Enhances Activity in the Caudate and Facilitates Prosocial Commitment - If the Rhythm Comes Easily",
+    "authors": [
+      "Idil Kokal",
+      "Annerose Engel",
+      "Sebastian Kirschner",
+      "Christian Keysers"
+    ],
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0027272",
+    "citation_count": 251,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2013459406",
+    "title": "The Ability to Move to a Beat Is Linked to the Consistency of Neural Responses to Sound",
+    "authors": [
+      "Adam Tierney",
+      "Nina Kraus"
+    ],
+    "year": 2013,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.0612-13.2013",
+    "citation_count": 203,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2491302369",
+    "title": "BAASTA: Battery for the Assessment of Auditory Sensorimotor and Timing Abilities",
+    "authors": [
+      "Simone Dalla Bella",
+      "Nicolas Farrugia",
+      "Charles-\u00c9tienne Benoit",
+      "Valentin B\u00e9gel",
+      "Laura Verga",
+      "Eleanor Harding",
+      "Sonja A. Kotz"
+    ],
+    "year": 2016,
+    "journal": "Behavior Research Methods",
+    "doi_or_url": "https://doi.org/10.3758/s13428-016-0773-6",
+    "citation_count": 173,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4235357717",
+    "title": "KASPAR \u2013 A Minimally Expressive Humanoid Robot for Human\u2013Robot Interaction Research",
+    "authors": [
+      "Kerstin Dautenhahn",
+      "Chrystopher L. Nehaniv",
+      "Michael L. Walters",
+      "Ben Robins",
+      "Hatice K\u00f6se",
+      "N.A. Mirza",
+      "Mike Blow"
+    ],
+    "year": 2009,
+    "journal": "Applied Bionics and Biomechanics",
+    "doi_or_url": "https://doi.org/10.1155/2009/708594",
+    "citation_count": 163,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110189850",
+    "title": "Four principles of bio-musicology",
+    "authors": [
+      "W. Tecumseh Fitch"
+    ],
+    "year": 2015,
+    "journal": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "doi_or_url": "https://doi.org/10.1098/rstb.2014.0091",
+    "citation_count": 155,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2017895081",
+    "title": "Rhythmic synchronization tapping to an audio\u2013visual metronome in budgerigars",
+    "authors": [
+      "Ai Hasegawa",
+      "Kazuo Okanoya",
+      "Toshikazu Hasegawa",
+      "Yoshimasa Seki"
+    ],
+    "year": 2011,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/srep00120",
+    "citation_count": 130,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4283754108",
+    "title": "Seizure semiology: ILAE glossary of terms and their significance",
+    "authors": [
+      "S\u00e1ndor Beniczky",
+      "William O. Tatum",
+      "Hal Blumenfeld",
+      "Hermann Stefan",
+      "Jayanti Mani",
+      "Louis Maillard",
+      "Firas Fahoum",
+      "Kollencheri Puthenveettil Vinayan",
+      "Luis Carlos Mayor",
+      "Maria Vlachou",
+      "Margitta Seeck",
+      "Philippe Ryvlin"
+    ],
+    "year": 2022,
+    "journal": "Epileptic Disorders",
+    "doi_or_url": "https://doi.org/10.1684/epd.2022.1430",
+    "citation_count": 130,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3007394338",
+    "title": "Natural rhythms of periodic temporal attention",
+    "authors": [
+      "Arnaud Zalta",
+      "Spase Petkoski",
+      "Benjamin Morillon"
+    ],
+    "year": 2020,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-020-14888-8",
+    "citation_count": 127,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2892616908",
+    "title": "Consensus paper: Decoding the Contributions of the Cerebellum as a Time Machine. From Neurons to Clinical Applications",
+    "authors": [
+      "Martin Bare\u0161",
+      "Richard Apps",
+      "Laura Avanzino",
+      "Assaf Breska",
+      "Egidio D\u2019Angelo",
+      "Pavel Filip",
+      "Marcus Gerwig",
+      "Richard B. Ivry",
+      "Charlotte L. Lawrenson",
+      "Elan D. Louis",
+      "Nicholas A. Lusk",
+      "Mario Manto"
+    ],
+    "year": 2018,
+    "journal": "The Cerebellum",
+    "doi_or_url": "https://doi.org/10.1007/s12311-018-0979-5",
+    "citation_count": 126,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2134481098",
+    "title": "A criterion-related validity test of selected indicators of musical sophistication using expert ratings",
+    "authors": [
+      "Joy E Ollen"
+    ],
+    "year": 2006,
+    "journal": "OhioLink ETD Center (Ohio Library and Information Network)",
+    "doi_or_url": "https://openalex.org/W2134481098",
+    "citation_count": 122,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2101394262",
+    "title": "The Harvard Beat Assessment Test (H-BAT): a battery for assessing beat perception and production and their dissociation",
+    "authors": [
+      "Shinya Fujii",
+      "Gottfried Schlaug"
+    ],
+    "year": 2013,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00771",
+    "citation_count": 120,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2954003101",
+    "title": "Walking to your right music: a randomized controlled trial on the novel use of treadmill plus music in Parkinson\u2019s disease",
+    "authors": [
+      "Rocco Salvatore Calabr\u00f2",
+      "Antonino Naro",
+      "Serena Filoni",
+      "Massimo Pullia",
+      "Luana Billeri",
+      "Provvidenza Tomasello",
+      "Simona Portaro",
+      "Giuseppe Di Lorenzo",
+      "Concetta M. Tomaino",
+      "Placido Bramanti"
+    ],
+    "year": 2019,
+    "journal": "Journal of NeuroEngineering and Rehabilitation",
+    "doi_or_url": "https://doi.org/10.1186/s12984-019-0533-9",
+    "citation_count": 117,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992968487",
+    "title": "Effect before Cause: Supramodal Recalibration of Sensorimotor Timing",
+    "authors": [
+      "James Heron",
+      "James V. M. Hanson",
+      "David Whitaker"
+    ],
+    "year": 2009,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0007681",
+    "citation_count": 116,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2023402644",
+    "title": "Metrical Rhythm Implicitly Orients Attention in Time as Indexed by Improved Target Detection and Left Inferior Parietal Activation",
+    "authors": [
+      "Deirdre Bolger",
+      "Jennifer T. Coull",
+      "Daniele Sch\u00f6n"
+    ],
+    "year": 2013,
+    "journal": "Journal of Cognitive Neuroscience",
+    "doi_or_url": "https://doi.org/10.1162/jocn_a_00511",
+    "citation_count": 115,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1499484671",
+    "title": "Non-verbal sensorimotor timing deficits in children and adolescents who stutter",
+    "authors": [
+      "Simone Falk",
+      "Thilo M\u00fcller",
+      "Simone Dalla Bella"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.00847",
+    "citation_count": 112,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2082207556",
+    "title": "Behavioral and multimodal neuroimaging evidence for a deficit in brain timing networks in stuttering: a hypothesis and theory",
+    "authors": [
+      "Andrew C. Etchell",
+      "Blake W. Johnson",
+      "Paul F. Sowman"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnhum.2014.00467",
+    "citation_count": 109,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

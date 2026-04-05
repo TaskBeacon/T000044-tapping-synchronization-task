@@ -1,0 +1,93 @@
+task_id: T000044
+generated_at: '2026-04-05T13:33:03Z'
+selection_policy: tiered_mix_high_impact_plus_high_citation_open_access
+citation_threshold: 100
+papers:
+- id: W2147682570
+  title: Listening to Musical Rhythms Recruits Motor Regions of the Brain
+  authors:
+  - Jerry L. Chen
+  - Virginia B. Penhune
+  - Robert J. Zatorre
+  year: 2008
+  journal: Cerebral Cortex
+  doi_or_url: https://doi.org/10.1093/cercor/bhn042
+  citation_count: 775
+  is_high_impact: true
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W1974407924
+  title: 'Synchronizing actions with events: The role of sensory information'
+  authors:
+  - Gisa Aschersleben
+  - Wolfgang Prinz
+  year: 1995
+  journal: Perception & Psychophysics
+  doi_or_url: https://doi.org/10.3758/bf03213056
+  citation_count: 295
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2013459406
+  title: The Ability to Move to a Beat Is Linked to the Consistency of Neural Responses
+    to Sound
+  authors:
+  - Adam Tierney
+  - Nina Kraus
+  year: 2013
+  journal: Journal of Neuroscience
+  doi_or_url: https://doi.org/10.1523/jneurosci.0612-13.2013
+  citation_count: 203
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2491302369
+  title: 'BAASTA: Battery for the Assessment of Auditory Sensorimotor and Timing Abilities'
+  authors:
+  - Simone Dalla Bella
+  - Nicolas Farrugia
+  - Charles-Étienne Benoit
+  - Valentin Bégel
+  - Laura Verga
+  - Eleanor Harding
+  - Sonja A. Kotz
+  year: 2016
+  journal: Behavior Research Methods
+  doi_or_url: https://doi.org/10.3758/s13428-016-0773-6
+  citation_count: 173
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''
+- id: W2101394262
+  title: 'The Harvard Beat Assessment Test (H-BAT): a battery for assessing beat perception
+    and production and their dissociation'
+  authors:
+  - Shinya Fujii
+  - Gottfried Schlaug
+  year: 2013
+  journal: Frontiers in Human Neuroscience
+  doi_or_url: https://doi.org/10.3389/fnhum.2013.00771
+  citation_count: 120
+  is_high_impact: false
+  open_access: true
+  used_for:
+  - task_workflow
+  - timing_parameters
+  parameter_bindings: {}
+  notes: ''

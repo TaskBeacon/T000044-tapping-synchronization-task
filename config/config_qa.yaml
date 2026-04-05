@@ -1,0 +1,217 @@
+subinfo_fields:
+  - name: subject_id
+    type: int
+    constraints:
+      min: 101
+      max: 999
+      digits: 3
+
+subinfo_mapping:
+  subject_id: 受试编号（3位）
+  Participant Information: 参与者信息
+  registration_failed: 注册失败
+  registration_successful: 注册成功
+  invalid_input: '{field} 输入无效'
+
+window:
+  size: [1280, 720]
+  units: pix
+  screen: 0
+  bg_color: black
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 60
+
+task:
+  task_name: tapping_synchronization_task
+  save_path: ./outputs/qa
+  language: Chinese
+  voice_name: zh-CN-YunyangNeural
+  voice_enabled: false
+  seed_mode: same_across_sub
+  overall_seed: 42044
+  block_seed:
+    - 42044
+    - 42045
+  phase_order:
+    - instruction
+    - practice_ready
+    - practice_sync_tapping
+    - practice_continuation_tapping
+    - practice_break
+    - test_ready
+    - sync_tapping
+    - continuation_tapping
+    - test_iti
+    - good_bye
+  total_blocks: 2
+  total_trials: 6
+  trial_per_block: 3
+  conditions:
+    - practice_600
+    - tempo_450
+    - tempo_600
+    - tempo_750
+  practice_trials: 1
+  test_trials: 6
+  practice_tempo_ms: 600
+  tempo_levels_ms:
+    - 450
+    - 600
+    - 750
+  sync_beats: 10
+  continuation_beats: 30
+  key_list:
+    - space
+  tap_key: space
+  start_key: space
+  instruction_font: SimHei
+  body_font: SimHei
+  prompt_font: SimHei
+  font_size_large: 34
+  font_size_medium: 28
+  font_size_small: 24
+  ready_duration_s: 0.8
+  break_duration_s: 1.2
+  iti_duration_s: 0.8
+  tone_frequency_hz: 1319
+  tone_duration_s: 0.1
+
+timing:
+  post_delay_s: 0.001
+
+stimuli:
+  instruction_text:
+    type: text
+    font: SimHei
+    text: |-
+      你将完成一个节拍同步拍击任务。
+      请在听到每个节拍时按一次空格键，尽量让按键和声音保持一致。
+
+      先进行 1 次练习，然后完成 6 次正式试次。
+      每个试次都会先出现准备提示，接着播放一段节拍声；
+      节拍声停止后，请继续按相同的节奏拍击。
+
+      请尽量保持稳定，不要抢拍，也不要漏拍。
+
+      按空格键开始。
+    color: white
+    height: 28
+    wrapWidth: 1040
+    pos: [0, 0]
+  practice_ready_text:
+    type: text
+    font: SimHei
+    text: |-
+      练习即将开始。
+    color: white
+    height: 30
+    wrapWidth: 960
+    pos: [0, 0]
+  practice_break_text:
+    type: text
+    font: SimHei
+    text: |-
+      练习结束。
+      正式试次即将开始。
+    color: white
+    height: 30
+    wrapWidth: 960
+    pos: [0, 0]
+  test_ready_text:
+    type: text
+    font: SimHei
+    text: |-
+      正式试次即将开始。
+    color: white
+    height: 30
+    wrapWidth: 960
+    pos: [0, 0]
+  good_bye_text:
+    type: text
+    font: SimHei
+    text: |-
+      任务结束
+
+      总试次：{trial_count}
+      练习试次：{practice_trials}
+      正式试次：{test_trials}
+      平均同步绝对偏差：{mean_sync_abs_asynchrony_ms:.1f} 毫秒
+      平均继续拍击间隔：{mean_continuation_iti_ms:.1f} 毫秒
+      继续拍击间隔变异系数：{continuation_iti_cv:.2f}
+      漏拍率：{miss_rate:.1%}
+
+      总用时：{total_elapsed_min:.1f} 分钟
+
+      按空格键退出
+    color: white
+    height: 28
+    wrapWidth: 980
+    pos: [0, 0]
+  fixation:
+    type: text
+    font: SimHei
+    text: "+"
+    color: white
+    height: 48
+    pos: [0, 0]
+  metronome_tone:
+    type: sound
+    file: ./assets/metronome_tone_1319hz_100ms.wav
+
+triggers:
+  map:
+    exp_onset: 1
+    exp_end: 2
+    block_onset: 10
+    block_end: 11
+    trial_onset: 20
+    instruction_onset: 21
+    practice_ready_onset: 22
+    practice_sync_tapping_onset: 23
+    practice_continuation_tapping_onset: 24
+    practice_break_onset: 25
+    test_ready_onset: 26
+    sync_tapping_onset: 27
+    continuation_tapping_onset: 28
+    tap_press: 29
+    test_iti_onset: 30
+    good_bye_onset: 40
+  driver:
+    type: serial_url
+    url: loop://
+    baudrate: 115200
+    timeout: 1
+    prefix: [1, 225, 1, 0]
+  policy:
+    strict: false
+  timing:
+    post_delay_s: 0.001
+
+qa:
+  output_dir: outputs/qa
+  enable_scaling: true
+  timing_scale: 0.3
+  min_frames: 2
+  strict: false
+  max_wait_s: 10.0
+  acceptance_criteria:
+    required_columns:
+      - condition
+      - block_role
+      - trial_kind
+      - tempo_ms
+      - response_received
+      - response_label
+      - response_rt_s
+      - sync_tap_count
+      - continuation_tap_count
+      - sync_mean_abs_asynchrony_ms
+      - continuation_mean_iti_ms
+      - continuation_iti_cv
+      - miss_count
+      - trial_elapsed_s
+    expected_trial_count: 7
+    allowed_keys:
+      - space
+    triggers_required: true
